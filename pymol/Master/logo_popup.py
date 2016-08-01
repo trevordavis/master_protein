@@ -28,7 +28,7 @@ class WindowApp():
         # Widget Parents
         self.win = tk.Toplevel(app.root)
         self.win.protocol("WM_DELETE_WINDOW", self.callback)
-        self.win.title('MASTER Search')
+        self.win.title('MASTER Program')
         
         # Instance variables to be used in logos
         self.win.start = None
